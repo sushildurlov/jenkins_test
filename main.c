@@ -1,12 +1,27 @@
-#include<stdio.h>
+// #include<stdio.h>
 
+// int main()
+// {
+//     int a,b,c;
+//     a = 5;
+//     b = 5;
+//     c = a+b;
+//     printf("sum = %d",&c);
+//     printf("hello world");
+//     return 0;v
+// }
+
+#include <stdio.h>
 int main()
 {
-    int a,b,c;
-    a = 5;
-    b = 5;
-    c = a+b;
-    printf("sum = %d",&c);
-    printf("hello world");
-    return 0;
+  int x, y, z;
+
+  printf("Enter two numbers to add\n");
+  scanf("%d%d", &x, &y);
+
+  z = x + y;
+
+  printf("Sum of the numbers = %d\n", z);
+
+  return 0;
 }
